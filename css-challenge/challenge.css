@@ -1,0 +1,137 @@
+/* Css Navbar */
+
+#navbar {
+	width: 100%;
+	height: 60px;
+	background-color: #F9CDAD;
+	margin: 50px;
+}
+
+#navbar li {
+	display: inline;
+	list-style: none;
+}
+
+#navbar {
+	padding: 0; margin: 0;
+	text-align: center; /* centre le texte */
+}
+#navbar li {
+	display: inline;
+	list-style: none;
+}
+
+#navbar a {
+	display:inline-block;
+	margin: 0 30px;
+	text-align: right;
+	font-size: 1.5em;
+    font-family: "Tahoma", Arial, sans-serif;
+    padding-top: 13px;
+    text-decoration: none;
+}
+
+.liste {
+	list-style-type: none;
+}
+
+/* Css Dropdown */
+
+#dropdown {
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+#dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Css Grille */
+
+#container-wrap{
+	width: 100%;
+	height: 800px;
+	background-color: gray;
+	padding-top: 35px;
+}
+
+.item {
+	font-family: impact;
+	color: #1d1d1d;
+	background-color: #ccc;
+	text-align: center;
+	font-size: 4rem;
+	padding: 5rem 0;
+	width: calc(25% - 2rem);
+	min-width: 200px;
+	margin-bottom: 2rem;
+	border-radius: 5px;
+}
+
+#container-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#container-wrap .item a li img {
+	height: 100px;
+	width: 100px;
+	text-decoration: none;
+}
+
+/* Css Div verte hover */
+
+#verte {
+	background-color: #92B35A;
+}
+
+#verte:hover {
+	background-color: #355C7D;
+	border: 2px groove #0000CD;
+	border-radius: 8px;
+	box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 1000ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 1000ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 1000ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 1000ms ease-in;
+    transform: scale(1.5);
+}
+
+/* Css Footer */
+
+#footer {
+	width: 100%;
+	height: 60px;
+	background-color: #86B8B1;
+	text-align: center;
+	font-size: 1.5em;
+    font-family: "Tahoma", Arial, sans-serif;
+    padding-top: 2rem;
+}
